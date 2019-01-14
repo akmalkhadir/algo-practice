@@ -27,11 +27,10 @@ function findingNemo (arr) {
   console.log(t2 - t1, arr.length)
 }
 
-findNemo(allFishes)
 findNemo(nemo)
 findNemo(allFishes)
 findingNemo(allFishes)
-findNemo(nemo)
+findingNemo(nemo)
 
 // Constant time --> O(1)
 
@@ -45,7 +44,6 @@ logFirstTwo(allFishes)
 // Quadratic loop - 0(N^2)
 
 // Log all element pairs in an array
-
 const letters = ['a', 'b', 'c', 'd', 'e', 'f']
 
 const logAllPairs = array =>
